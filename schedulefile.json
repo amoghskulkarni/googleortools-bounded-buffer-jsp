@@ -1,0 +1,267 @@
+{
+    "job_count": 10, 
+    "machine_schedules": [
+        {
+            "machine": 0, 
+            "tasks": [
+                5, 
+                0, 
+                1, 
+                2, 
+                3, 
+                4, 
+                6, 
+                7, 
+                8, 
+                9
+            ], 
+            "task_types": [
+                {
+                    "process": "proc_1", 
+                    "cycle_time": {
+                        "stddev": 0.05, 
+                        "mean": 1.0
+                    }
+                }, 
+                {
+                    "process": "proc_1", 
+                    "cycle_time": {
+                        "stddev": 0.05, 
+                        "mean": 1.0
+                    }
+                }, 
+                {
+                    "process": "proc_1", 
+                    "cycle_time": {
+                        "stddev": 0.05, 
+                        "mean": 1.0
+                    }
+                }, 
+                {
+                    "process": "proc_1", 
+                    "cycle_time": {
+                        "stddev": 0.05, 
+                        "mean": 1.0
+                    }
+                }, 
+                {
+                    "process": "proc_1", 
+                    "cycle_time": {
+                        "stddev": 0.05, 
+                        "mean": 1.0
+                    }
+                }, 
+                {
+                    "process": "proc_1", 
+                    "cycle_time": {
+                        "stddev": 0.05, 
+                        "mean": 1.0
+                    }
+                }, 
+                {
+                    "process": "proc_1", 
+                    "cycle_time": {
+                        "stddev": 0.05, 
+                        "mean": 1.0
+                    }
+                }, 
+                {
+                    "process": "proc_1", 
+                    "cycle_time": {
+                        "stddev": 0.05, 
+                        "mean": 1.0
+                    }
+                }, 
+                {
+                    "process": "proc_1", 
+                    "cycle_time": {
+                        "stddev": 0.05, 
+                        "mean": 1.0
+                    }
+                }, 
+                {
+                    "process": "proc_1", 
+                    "cycle_time": {
+                        "stddev": 0.05, 
+                        "mean": 1.0
+                    }
+                }
+            ]
+        }, 
+        {
+            "machine": 1, 
+            "tasks": [
+                5, 
+                0, 
+                1, 
+                2, 
+                3, 
+                4, 
+                6, 
+                7, 
+                8, 
+                9
+            ], 
+            "task_types": [
+                {
+                    "process": "proc_4", 
+                    "cycle_time": {
+                        "stddev": 0.03, 
+                        "mean": 6.0
+                    }
+                }, 
+                {
+                    "process": "proc_2", 
+                    "cycle_time": {
+                        "stddev": 0.02, 
+                        "mean": 3.0
+                    }
+                }, 
+                {
+                    "process": "proc_2", 
+                    "cycle_time": {
+                        "stddev": 0.02, 
+                        "mean": 3.0
+                    }
+                }, 
+                {
+                    "process": "proc_2", 
+                    "cycle_time": {
+                        "stddev": 0.02, 
+                        "mean": 3.0
+                    }
+                }, 
+                {
+                    "process": "proc_2", 
+                    "cycle_time": {
+                        "stddev": 0.02, 
+                        "mean": 3.0
+                    }
+                }, 
+                {
+                    "process": "proc_2", 
+                    "cycle_time": {
+                        "stddev": 0.02, 
+                        "mean": 3.0
+                    }
+                }, 
+                {
+                    "process": "proc_4", 
+                    "cycle_time": {
+                        "stddev": 0.03, 
+                        "mean": 6.0
+                    }
+                }, 
+                {
+                    "process": "proc_4", 
+                    "cycle_time": {
+                        "stddev": 0.03, 
+                        "mean": 6.0
+                    }
+                }, 
+                {
+                    "process": "proc_4", 
+                    "cycle_time": {
+                        "stddev": 0.03, 
+                        "mean": 6.0
+                    }
+                }, 
+                {
+                    "process": "proc_4", 
+                    "cycle_time": {
+                        "stddev": 0.03, 
+                        "mean": 6.0
+                    }
+                }
+            ]
+        }, 
+        {
+            "machine": 2, 
+            "tasks": [
+                5, 
+                0, 
+                1, 
+                2, 
+                3, 
+                4, 
+                6, 
+                7, 
+                8, 
+                9
+            ], 
+            "task_types": [
+                {
+                    "process": "proc_5", 
+                    "cycle_time": {
+                        "stddev": 0.1, 
+                        "mean": 4.0
+                    }
+                }, 
+                {
+                    "process": "proc_3", 
+                    "cycle_time": {
+                        "stddev": 0.001, 
+                        "mean": 2.0
+                    }
+                }, 
+                {
+                    "process": "proc_3", 
+                    "cycle_time": {
+                        "stddev": 0.001, 
+                        "mean": 2.0
+                    }
+                }, 
+                {
+                    "process": "proc_3", 
+                    "cycle_time": {
+                        "stddev": 0.001, 
+                        "mean": 2.0
+                    }
+                }, 
+                {
+                    "process": "proc_3", 
+                    "cycle_time": {
+                        "stddev": 0.001, 
+                        "mean": 2.0
+                    }
+                }, 
+                {
+                    "process": "proc_3", 
+                    "cycle_time": {
+                        "stddev": 0.001, 
+                        "mean": 2.0
+                    }
+                }, 
+                {
+                    "process": "proc_5", 
+                    "cycle_time": {
+                        "stddev": 0.1, 
+                        "mean": 4.0
+                    }
+                }, 
+                {
+                    "process": "proc_5", 
+                    "cycle_time": {
+                        "stddev": 0.1, 
+                        "mean": 4.0
+                    }
+                }, 
+                {
+                    "process": "proc_5", 
+                    "cycle_time": {
+                        "stddev": 0.1, 
+                        "mean": 4.0
+                    }
+                }, 
+                {
+                    "process": "proc_5", 
+                    "cycle_time": {
+                        "stddev": 0.1, 
+                        "mean": 4.0
+                    }
+                }
+            ]
+        }
+    ], 
+    "machine_count": 3
+}

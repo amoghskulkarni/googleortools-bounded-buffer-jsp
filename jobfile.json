@@ -1,0 +1,83 @@
+{
+  "system": {
+    "machines": 3,
+    "buffers": 2
+  },
+  "requirements": {
+    "max_cycle_time": 100,
+    "jobs": [
+      {
+        "id": "job_type_A",
+        "quantity": 5
+      },
+      {
+        "id": "job_type_B",
+        "quantity": 5
+      }
+    ],
+    "buffer_capacities": [
+      {
+        "buf_id": "buf_1",
+        "capacity": 4
+      },
+      {
+        "buf_id": "buf_2",
+        "capacity": 4
+      }
+    ]
+  },
+  "job_types": [
+    {
+      "id": "job_type_1",
+      "tasks": [
+        {
+          "process": "proc_1",
+          "cycle_time": {
+            "mean": 1.0,
+            "stddev": 0.05
+          }
+        },
+        {
+          "process": "proc_2",
+          "cycle_time": {
+            "mean": 3.0,
+            "stddev": 0.02
+          }
+        },
+        {
+          "process": "proc_3",
+          "cycle_time": {
+            "mean": 2.0,
+            "stddev": 0.001
+          }
+        }
+      ]
+    },
+    {
+      "id": "job_type_2",
+      "tasks": [
+        {
+          "process": "proc_1",
+          "cycle_time": {
+            "mean": 1.0,
+            "stddev": 0.05
+          }
+        },
+        {
+          "process": "proc_4",
+          "cycle_time": {
+            "mean": 6.0,
+            "stddev": 0.03
+          }
+        },
+        {
+          "process": "proc_5",
+          "cycle_time": {
+            "mean": 4.0,
+            "stddev": 0.1
+          }
+        }
+      ]
+    }
+  ]
+}
